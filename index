@@ -1,29 +1,63 @@
-# Toolset Overview
+# Scripts
 
-### Mobile Testing
+> Major work-in-progress
 
-*Scanning & Reporting*
+### Recon
 
-[Mobile Security Framework](https://github.com/ajinabraham/Mobile-Security-Framework-MobSF)
-* Android (Dynamic/Static) & iOS (Static) Analysis with vulnerability reports. 
-* Lacks on the iOS side - doesn't show exact locations of reported issues.
-* Tool-author udemy course [HERE](https://www.udemy.com/automated-mobile-application-security-assessment-with-mobsf/)
+##### Mapping
+draw.io flowchart
 
-[Bluemix](https://console.ng.bluemix.net/)
-* 10 free scans with vulnerability report.
-* App-specific mobile testing documentation [HERE](https://new-console.ng.bluemix.net/docs/services/ApplicationSecurityonCloud/appseccloud_scanning_mobile.html#Tool)
+##### Enumeration
+1-65535 ports (TCP/UDP)
+SMB Shares, SNMP details
+FTP/SSH banners
+OS versions
 
-[idbtool](https://www.idbtool.com/)
-* Open source
+##### Low-level Attacking
+FTP brute-force
+HTTP directory brute force
+SNMP brute force
+Active exploitation of open services
 
-[Codified Security](https://codifiedsecurity.com/)
-* Fricken awesome tool - however, expensive. Better use corperate $ for it.
+### Infiltration
 
-* Reverse Engineering & Analysis
+##### Local Enumeration
+Interesting files
+Bash/Cmd history
+Environment Settings
+Memory
+Running Services
+Directory persmissions
+Service permissions
+Scheduled/Cron jobs
+Weak Permissions
 
-- IDA Pro
-- [Hopper Disassembler](https://www.hopperapp.com/) - Static
-  * Demo has time limit
-- ImmunityDebugger - Dynamic
-- Ollydbg - Dynamic
-- [Online Disassembler](https://www.onlinedisassembler.com/static/home/)
+##### Local exploits & PrivEsc
+UAC bypass
+Elevation scripts
+Local root exploits
+Brute forcing
+Password cracking
+
+##### Persistence
+Backdoors
+Adding admin accounts
+Service autoboot
+Pinhole in firewall service
+
+##### Network Enumeration
+Routes & Nameservers
+Connections and neighbors
+
+##### Looting 
+LSA hashes
+Config/Startup scripts
+SAM/shadow database
+MD5/NTLM password cracking
+Connected users
+Host relationship
+
+##### Cleanup
+Scrub logfiles
+Remove exploits
+Hide backdoors
