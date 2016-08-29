@@ -21,13 +21,13 @@
 
 *Reverse Engineering & Analysis*
 
-- IDA Pro
+IDA Pro
 
-- [Hopper Disassembler](https://www.hopperapp.com/) - Static
-  * Demo has time limit
+[Hopper Disassembler](https://www.hopperapp.com/) - Static
+* Demo has time limit
  
-- ImmunityDebugger - Dynamic
+ImmunityDebugger - Dynamic
 
-- Ollydbg - Dynamic
+Ollydbg - Dynamic
 
-- [Online Disassembler](https://www.onlinedisassembler.com/static/home/)
+[Online Disassembler](https://www.onlinedisassembler.com/static/home/)
