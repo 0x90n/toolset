@@ -19,11 +19,15 @@
 [Codified Security](https://codifiedsecurity.com/)
 * Fricken awesome tool - however, expensive. Better use corperate $ for it.
 
-* Reverse Engineering & Analysis
+*Reverse Engineering & Analysis*
 
 - IDA Pro
+
 - [Hopper Disassembler](https://www.hopperapp.com/) - Static
   * Demo has time limit
+ 
 - ImmunityDebugger - Dynamic
+
 - Ollydbg - Dynamic
+
 - [Online Disassembler](https://www.onlinedisassembler.com/static/home/)
