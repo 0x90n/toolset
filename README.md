@@ -18,6 +18,10 @@
 
 [Codified Security](https://codifiedsecurity.com/)
 * Fricken awesome tool - however, expensive. Better use corperate $ for it.
+* Note, false positives have been reported
+
+[ostorlab](https://www.ostorlab.co/)
+* Not yet tried
 
 
 *Reverse Engineering & Analysis*
