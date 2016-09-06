@@ -1,5 +1,10 @@
 # Toolset Overview
 
+### OSINT & Recon
+
+[i2 Analyst's Notebook](http://www-03.ibm.com/software/products/en/analysts-notebook)
+* Paid
+
 ### Mobile Testing
 
 *Scanning & Reporting*
