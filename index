@@ -21,6 +21,10 @@ http://pastebin.com/3HKGQCWF
 
 Rich-URL scheme decode: https://www.optiv.com/blog/decoding-ibm-websphere-portlet-urls
 
+Download files instead of visiting: .jsp > .JSP (capitalize)
+
+Null byte sanitized workaround: %01
+
 
 
 
