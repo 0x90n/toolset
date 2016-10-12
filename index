@@ -39,6 +39,11 @@ https://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins
 
 Toolset: https://github.com/51x/WHP
 
+### Reverse Proxy Attacks
+
+https://www.exploit-db.com/exploits/17969/
+
+https://blog.qualys.com/securitylabs/2011/11/23/apache-reverse-proxy-bypass-issue
 
 ---
 
@@ -50,6 +55,10 @@ draw.io flowchart
 SMB Shares, SNMP details
 FTP/SSH banners
 OS versions
+
+dnswalk
+dnsenum
+
 
 ##### Low-level Attacking
 FTP brute-force
