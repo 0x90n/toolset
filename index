@@ -59,6 +59,33 @@ http://www.nta-monitor.com/wiki/index.php/Ike-scan_User_Guide
 ColdFusion Webshell
 http://pastebin.com/3HKGQCWF
 
+
+### Hardening
+
+#### Windows
+MBSA - https://www.microsoft.com/en-us/download/details.aspx?id=7558
+
+#### Linux
+OpenSCAP - Will work with most linux distros. Requires installation
+https://www.open-scap.org/
+
+BuckSecurity - Great little tool for finding most security issues represented within linux. NO INSTALLATION REQUIRED.
+https://github.com/davewood/buck-security
+
+#### Mainframes (zOS)
+Automated z/OS Tools:
+CA-Audit (http://www.ca.com/us/products/ca-auditor-zos.html) - paid
+
+Vanguard's Configuration Manager (https://www.go2vanguard.com/mainframe-security-software/audit-compliance/configuration/) - paid
+
+The Mainframe Security Standard (http://iase.disa.mil/stigs/stig/index.html)
+
+The official security documentation: http://www-03.ibm.com/systems/z/os/zos/library/bkserv/v2r2pdf/
+
+NIST Vulns List: https://web.nvd.nist.gov/view/ncp/repository?product=IBM+z%2fOS+Version+2.1&startIndex=0 
+
+IBM RACF suit can be used (internal software): http://www-03.ibm.com/systems/z/os/zos/features/racf/index.html
+
 ### Post-Exploitation
 
 MailSniper 
