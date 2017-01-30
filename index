@@ -1,6 +1,11 @@
 #### Broad Toolset
 https://github.com/Aptive/penetration-testing-tools
 
+### Printer Hacking
+
+Printer Security
+https://web-in-security.blogspot.com.au/2017/01/printer-security.html
+
 ### INCIDENT RESPONSE
 
 ## linux
@@ -46,6 +51,9 @@ http://michenriksen.com/blog/birdwatcher-twitter-osint-framework/
 > Major work-in-progress
 
 ### Recon
+
+Punk.sh - Mass Recon
+http://www.grayedout.sh/punk-sh-massiver-recon/
 
 ## Local Linux Enumeration
 https://highon.coffee/blog/linux-local-enumeration-script/
