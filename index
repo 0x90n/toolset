@@ -34,6 +34,11 @@ First Checks:
 * /etc/sysctl.conf
 > uncomment and set to "net.ipv4.ip_forward=0"
 
+### FORENSICS
+
+# PDF Analysis
+http://sandsprite.com/blogs/index.php?uid=7&pid=57
+
 ### OSINT 
 
 Toolbox
