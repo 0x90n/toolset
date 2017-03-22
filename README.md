@@ -10,6 +10,12 @@
 
 http://grugq.github.io/
 
+### Internal Pentesting
+
+https://info.varonis.com/hubfs/docs/whitepapers/en/ebook_pen_testing_031317.pdf?submissionGuid=af8d5b95-8b40-4f86-baa0-944bf9cf4900
+
+https://www.trustwave.com/Resources/SpiderLabs-Blog/Top-Five-Ways-SpiderLabs-Got-Domain-Admin-on-Your-Internal-Network/
+
 ### Mobile Testing
 
 *Scanning & Reporting*
