@@ -1,0 +1,10 @@
+Kali 2018
+
+Create new user:
+useradd -m meta
+usermod -a -G sudo meta
+
+Programs:
+1. google-chrome
+2. terminator
+3. CherryTree
