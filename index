@@ -5,9 +5,14 @@ https://github.com/Aptive/penetration-testing-tools
 http://www.cyberforensics.in/OnlineEmailTracer/index.aspx
 Header Analysis
 
+### Cloud Pentesting
+
+https://github.com/SecurityFTW/cs-suite
+
 ### Wireless Pentesting
 
 https://github.com/s0lst1c3/eaphammer
+https://github.com/calebmadrigal/trackerjacker
 
 ### Internal Pentest
 
@@ -77,6 +82,10 @@ https://www.hunch.ly/
 
 Twitter
 http://michenriksen.com/blog/birdwatcher-twitter-osint-framework/
+
+Mobile Pentesting
+
+iOS: https://github.com/chaitin/passionfruit
 
 
 # Scripts
