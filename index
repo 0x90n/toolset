@@ -27,6 +27,11 @@ https://medium.com/@grayhatwarfare/how-to-search-for-open-amazon-s3-buckets-and-
 ### Red Teaming (facial recognition)
 https://github.com/SpiderLabs/social_mapper
 
+DNS/Mass Infra Detection:
+shodan.io
+https://www.zoomeye.org/
+https://www.fofa.so/
+
 ### Wireless Pentesting
 
 https://github.com/s0lst1c3/eaphammer
