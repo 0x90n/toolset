@@ -1,0 +1,17 @@
+Identifying physical security issues on a 2FA door.
+
+Notes:
+Door has two foot-push deadlock bolts protecting the base of each door (3" depth floor ruts).
+Door has a magnetic lock protecting the door by PIN code.
+
+Identified issues:
+
+Root Cause:
+* Incorrect installation of magnetic lock on the outside area.
+* Non-tamper proof screws holding magnetic lock in place.
+* Deadbolt can be flipped using an under-the-door tool, on the door side without the magnetic lock.
+
+* Magnetic slide can be split using a metal tool (e.g. shim) if not pulled fully into place, allowing access without deadbolt.
+* Roof tiles can be pushed up to travel via roof and bypass the door.
+* Default PIN codes can be used to reset the current key-codes based on ROSSLARE schema.
+* Hanger/tool can be used to slip through glass side and press 'exit' button.
