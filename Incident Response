@@ -14,3 +14,25 @@ https://www.magnetforensics.com/computer-forensics/acquiring-memory-with-magnet-
 Linux - Artefact Capture - USB
 
 https://github.com/SekoiaLab/Fastir_Collector_Linux
+
+FOR MACS/APPLE (Thanks to @norsec0de)
+
+Closest you’ll get to Autopsy for OSX Volumes is Black Bag’s Macquisition (https://www.blackbagtech.com/software-products/macquisition-8/macquisition.html) and BlackLight Analyse (https://www.blackbagtech.com/software-products/blacklight.html).
+It should provide the basic functionality but often would require additional purpose built tools.
+
+Some suggestions are:
+•	FSEventsParser: https://github.com/dlcowen/FSEventsParser (Analyse Journals from Journaled drives in Macs)
+•	OSXCollector: https://github.com/Yelp/osxcollector
+•	OSXCollector Output Files: https://github.com/Yelp/osxcollector_output_filters
+•	X-Ways Forensics: https://github.com/Yelp/osxcollector_output_filters
+
+Pretty much everything in OSX is going to be contained in the log files (daily files rotated weekly by default), the FSEvents (everything that happens, ~ 6 months of activity) and in all the PLIST files. I heard the phrase “SQLite is going to be your new best friend” mentioned :/
+
+As for the email, texting and online activity, there are individual investigation tools that can specifically look at these.
+•	iMessage, Mail can be done with PLISTS and FSEvents
+•	Browsers such as Safari, Chrome, Firefox histories and artefacts can be done with Autopsy
+•	Outlook PST/OST files with Autopsy or others
+•	The .bash_history is another good one, and check for any “brew” applications that have been installed
+•	USB Drive activity should be in FSEvents Database
+
+I was also given this SANS link which talks through what to look for in FSEvents: https://youtu.be/bv5gu5reKEA
