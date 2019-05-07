@@ -1,0 +1,17 @@
+https://www.microsoft.com/security/blog/2016/12/01/security-in-agile-development/
+
+On the right track but very high level regards the bulletpoints, ideally they should have dev, trial, stage environments that replicate the production environment.. code should be peer reviewed and approved + automatically tested and deployed to the non-prod environments. regards the Production deploy / Access, u can gate this process so only those required after due process can actually access and deploy to that environment / following business requirements. currently implementing this logic on a project now, the devs shouldnt really need to get to the production environment if non-prod and automation are deployed correctly.
+
+----------------------
+Need to see their current sdlc to make a comment on it specifically. However it's unusual to have a dev github and a prod github for deployment to dev and prod.
+
+If it's a segregation of duties issue that should be easy enough to resolve.  
+Peer review (via pull request)
+Build pipeline includes linting and code quality tests (unit & integration tests, SAST etc).
+Successful build results in an artefact that is versioned and deployable to any env.
+Functional and non functional (eg. performance, security) tests in a test env result in promotion to prod (or prod-ready repo) or rejection/deletion
+
+Depending on their skill levels, risk levels, architecture (ie. potential for outage) and customer impact they would choose a deployment method. This could be direct deployment to that live env, or an outage window, or a blue/green style, or a phased approach where new updated machines are brought in alongside the others then the old are brought down when the new are operational.
+This deployment may be fully automated.
+It could be run by someone not involved in the dev if segregation of duties was the issue. 
+It should be backed by a run sheet including back out tasks and verification tasks.
