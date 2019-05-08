@@ -15,3 +15,8 @@ Depending on their skill levels, risk levels, architecture (ie. potential for ou
 This deployment may be fully automated.
 It could be run by someone not involved in the dev if segregation of duties was the issue. 
 It should be backed by a run sheet including back out tasks and verification tasks.
+
+Should also say that best practice is to not give any shell/rdp access to most (if not all) developers to non dev envs and to automate all processes. If they need to see something on the system it needs to be available via logs and system metrics via a monitoring tool
+
+Agree that's the design to aim for > provide as much information as possible via the build system so there is no need for devs to log onto systems in the first place.
+That also feeds back to your logging solution there too, ensure it aggregates everything so no need for system access.
