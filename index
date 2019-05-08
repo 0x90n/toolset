@@ -44,6 +44,21 @@ https://github.com/calebmadrigal/trackerjacker
 
 https://wald0.com/?p=179 - GPOs understanding
 
+
+1.	Passive Recon: Wireshark (Promiscuous Mode) looking for WPAD, LLMNR, NBT-NS, Identify 802.1Q and any other Broadcast Traffic
+2.	Active Hash Capture: Responder with WPAD NetNTMLv2 hash capture > Hashcat & GPU Cracker
+3.	If creds recovered, use to gain local access, and start incognito & AD attacks; else
+4.	Configure NetNTLMv2 hash relay to gain foothold on target systems and GOTO #3
+5.	Active Recon: Port Scanning > Top Ports > Version Numbers > Default Scripts > All Ports > SearchSploit
+6.	If no low hanging fruit, THEN, move to Automated Web Application Scanning
+7.	Auto Web App Scanning >
+a.	Wordpress > WPScan
+b.	Joomla > JoomScan
+c.	Default Pages > GoBuster
+d.	Everything else > Nikto
+8.	Password Spraying
+9.	Other Hail Mary attacks
+
 Responder
 
 SSDP
