@@ -20,3 +20,15 @@ Should also say that best practice is to not give any shell/rdp access to most (
 
 Agree that's the design to aim for > provide as much information as possible via the build system so there is no need for devs to log onto systems in the first place.
 That also feeds back to your logging solution there too, ensure it aggregates everything so no need for system access.
+
+
+--------------------
+MongoDB
+
+You're on prem or using cloud? If cloud, you could say use AWS or Mongo Atlas (https://docs.mongodb.com/manual/core/security-encryption-at-rest/) to make it pretty easily. (https://docs.atlas.mongodb.com/security-kms-encryption/)
+
+I usually hate it when people throw doco at me but traditioinally when I come across Mongo i'll review these, and then basically figure out which ones the dev DIDNT do to exploit it (https://docs.mongodb.com/manual/security/ and https://docs.mongodb.com/manual/administration/security-checklist/#enable-access-control-and-enforce-authentication).
+
+https://opensource.com/article/19/1/mongodb-security
+
+Basically it's always worth it, especially if an attacker got inside that logical network. If you need any further help or deeper tech instructions let me know man
