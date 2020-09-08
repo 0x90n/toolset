@@ -10,6 +10,14 @@
 
 http://grugq.github.io/
 
+## Satellites and GeoSpatial OSINT
+
+https://shadowbreakintl.com/ - $15 for any square kilo of satellite imagery (task for images they dont have)
+
+https://soar.earth/ - merges drone shots with satellites
+
+https://liveuamap.com/ - provides real-time incident aggregation data from around the world
+
 ### Internal Pentesting
 
 https://info.varonis.com/hubfs/docs/whitepapers/en/ebook_pen_testing_031317.pdf?submissionGuid=af8d5b95-8b40-4f86-baa0-944bf9cf4900
