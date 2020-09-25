@@ -6,8 +6,10 @@
 * Paid
 * 
 
-*OPSEC*
+S3 Buckets:
+https://github.com/mxm0z/awesome-sec-s3
 
+Opsec
 http://grugq.github.io/
 
 ## Satellites and GeoSpatial OSINT
